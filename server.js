@@ -10,7 +10,7 @@ const app = express();
 const createServer = () => {
     delete require.cache[require.resolve(fileName)];
     setTimeout( () => {
-        router = jsonServer.router(fileName.endsWith('./js') ? require(fileName)() : fileName);
+        router = jsonServer.router(fileName.endsWith('.js') ? require(fileName)() : fileName);
     }, 100)
 }
 
