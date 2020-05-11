@@ -14,12 +14,7 @@ module.exports = function () {
                 class: 'Ranger',
                 race: 'Half-elf',
                 level: '3'
-            }],
-            equipment: [
-                {
-                    id: 1,
-                    slot: '',
-                }
-            ]
+            }
+        ]    
     }
 }
