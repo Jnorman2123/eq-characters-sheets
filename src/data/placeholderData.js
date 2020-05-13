@@ -14,19 +14,30 @@ export const data = {
             race: 'Half-elf',
             level: 3
         }
-    ],
+    ], 
     equipment: [
         {
             id: 1,
-            character: 'Kirill',
-            name: 'Studded Tunic',
-            slot: 'Chest',
+            character: 'Merill',
+            name: 'Short Sword of the Ykesha',
+            slot: 'Primary/Secondary',
+            skill: '1 Hand Slashing',
+            damage: 8,
+            delay: 24,
+            effect: 'Ykesha'
         },
         {
             id: 2,
-            character: 'Merill',
-            name: 'Cloth Gloves',
-            slot: 'Hands'
+            character: 'Kirill',
+            name: 'Darksea Harpoon',
+            slot: 'Primary/Range',
+            skill: '1 Hand Piercing',
+            damage: 10,
+            delay: 28,
+            str: 5,
+            wis: 5,
+            mana: 20,
+            svdisease: 5,
         }
     ]
 }

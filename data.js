@@ -15,6 +15,6 @@ module.exports = function () {
                 race: 'Half-elf',
                 level: '3'
             }
-        ]    
+        ]
     }
 }
